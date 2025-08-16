@@ -3,12 +3,9 @@ from torch.utils.data import Dataset, DataLoader
 from get_dataset import TabDS
 from model import MLP
 from train import eval_auc, train_epoch
-import math, os, random, numpy as np, pandas as pd
-from datetime import timedelta
+import os, random, numpy as np, pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import (
-    roc_auc_score,
-    average_precision_score,
     classification_report,
     precision_recall_curve,
     precision_recall_fscore_support,
