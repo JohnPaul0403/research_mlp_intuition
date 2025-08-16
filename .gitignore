@@ -1,0 +1,4 @@
+/.vscode
+/data
+/mlp_checkpoint.pt
+/myenv
